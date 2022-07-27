@@ -1,7 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
 import React ,{useState} from 'react';
-
+import './App.css';
 function App() {
   const [count,setCount] = useState(0)
   const [post, setPost] = useState({
